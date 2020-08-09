@@ -34,7 +34,7 @@ console.log(cars);
 const cars2 = new Array ('Mazda', 'Ford', 'Opel');
 console.log(cars2);
 
-cars[cars.length] = 'Porsche';
+cars[3] = 'Porsche';
 console.log(cars);
 
 
