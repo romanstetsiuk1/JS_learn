@@ -5,7 +5,6 @@ alert(`${userNickName} welcome to my world`);
  https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Operatory/Pierwsze%C5%84stwo_operator%C3%B3w?
 */
 
-// basic functions
 function calculateAge (bornAge){
   return 2020-bornAge;
 }

@@ -5,7 +5,6 @@ alert(`${userNickName} welcome to my world`);
  https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Operatory/Pierwsze%C5%84stwo_operator%C3%B3w?
 */
 
-// basic functions
 function calculateAge (bornAge){
   return 2020-bornAge;
 }
@@ -16,11 +15,3 @@ console.log(myAge);
 console.log(calculateAge(1991));
 console.log(calculateAge());
 console.log(calculateAge(1984));
-
-function logInfoAboutUser (name,bornAge){
-  console.log(`User ${name} have ${calculateAge(bornAge)} years.\n
-  ${name} was born in ${bornAge}`);
-}
-
-logInfoAboutUser('Roman',1989);
-logInfoAboutUser('Miśa', 1991);
