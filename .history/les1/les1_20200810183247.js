@@ -66,15 +66,12 @@ const person = {
 
 console.log(person);
 console.log(person.firstName);
-person.sayHello();
-console.log(person['hasWife']);
-const key = 'languages';
-console.log(person[key]);
+person.sayHello;
 
-person.sayHello = function() {
-  console.log('Hello, how are you?');
-}
-person.sayHello();
-person.isProgrammer = true;
-console.log(person);
+
+
+
+
+
+
 
