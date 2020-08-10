@@ -39,12 +39,6 @@ console.log(cars);
 
 // basic Loops
 for (let i=0; i<=cars.length; i++){
-  const car = cars[i];
-  console.log(`Element number ${i} is ${car}`);
+  const cars[i];
+  console.log(cars);
 }
-
-// enother way
-for (let car of cars){
-  console.log(`${car} it is good car.`)
-}
-
