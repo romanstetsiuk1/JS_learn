@@ -22,7 +22,7 @@ exemple infinity is number/0, like 2/0 = ${2/0}`);
 console.log(`In JS exist negative infinity(Number.NEGATIVE_INFINITY): ${Number.NEGATIVE_INFINITY}`);
 
 // Nan
-console.log(`NAN value (Not A Number). Number.NaN = ${Number.NaN}`);
+console.log(`NAN value (Not A Number). Number.NaN${Number.NaN}`);
 console.log(typeof NaN);
 const createNanValue = 2 / undefined;
 console.log(Number.isNaN(createNanValue));

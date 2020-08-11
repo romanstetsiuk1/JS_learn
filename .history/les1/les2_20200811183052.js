@@ -17,16 +17,8 @@ console.log(`Max integer value in Math is: Math.pow(2,53) - 1 = ${Math.pow(2,53)
 console.log(`Max posible value in JS = ${Number.MAX_VALUE}`);
 console.log(`Min posible value in JS = ${Number.MIN_VALUE}`);
 
-console.log(`In JS exist positive infinity(Number.POSITIVE_INFINITY): ${Number.POSITIVE_INFINITY}\n
-exemple infinity is number/0, like 2/0 = ${2/0}`);
+console.log(`In JS exist positive infinity(Number.POSITIVE_INFINITY): ${Number.POSITIVE_INFINITY}`);
 console.log(`In JS exist negative infinity(Number.NEGATIVE_INFINITY): ${Number.NEGATIVE_INFINITY}`);
-
-// Nan
-console.log(`NAN value (Not A Number). Number.NaN = ${Number.NaN}`);
-console.log(typeof NaN);
-const createNanValue = 2 / undefined;
-console.log(Number.isNaN(createNanValue));
-console.log(Number.isNaN(43));
 
 
 
