@@ -1,9 +1,9 @@
 console.log('Welcome to lesson nr 2');
 
 // Number
-const numberInt = 21;       // integer
-const numberFloat = 47.3;   // float
-const numberPow = 10e3;     // 10e3 = 10000
+const numberInt = 21;
+const numberFloat = 47.3;
+const numberPow = 10e3;
 
 console.log(`Type Integer: ${numberInt}`);
 console.log(`Type Float: ${numberFloat}`);
