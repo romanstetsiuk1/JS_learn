@@ -31,15 +31,6 @@ console.log(Number.isNaN(43));
 console.log(Number.isFinite(Infinity));
 console.log(Number.isFinite(78));
 
-const stringInt = '40';
-console.log(stringInt + 2);
-console.log(Number.parseInt(stringInt) + 2);
-console.log(Number(stringInt) + 2);
-console.log(+stringInt + 2);
-
-const stringFloat = '40.42';
-console.log(parseFloat(stringFloat) + 2);
-console.log(+stringFloat + 2);
 
 
 

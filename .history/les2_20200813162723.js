@@ -38,7 +38,7 @@ console.log(Number(stringInt) + 2);
 console.log(+stringInt + 2);
 
 const stringFloat = '40.42';
-console.log(parseFloat(stringFloat) + 2);
+console.log(parseInt(stringFloat) + 2);
 console.log(+stringFloat + 2);
 
 
