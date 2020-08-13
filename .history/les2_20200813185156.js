@@ -44,7 +44,7 @@ console.log(+stringFloat + 2);
 // .toFixed
 console.log(0.4 + 0.2);     // = 0.6000000000000001
 console.log((0.4 + 0.2).toFixed(6));      // 0.600000 - String
-console.log(parseFloat((0.4 + 0.2).toFixed));  // NaN
-console.log(+((0.4 + 0.2).toFixed(1)));       // 0.6
+console.log(parseFloat((0.4 + 0.2).toFixed());  //
+console.log(+((0.4 + 0.2).toFixed(1)));
 
 
