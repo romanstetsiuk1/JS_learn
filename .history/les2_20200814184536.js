@@ -60,11 +60,7 @@ console.log(bigIntValue - 1n);    // = 9007199254740991424241n
 console.log(Math.E);
 console.log(Math.PI);
 
-console.log(Math.sqrt(25));   // 5
-console.log(Math.pow(5, 3));  // 125
-console.log(Math.abs(-42));   // 42
-console.log(Math.max(12, -1, 46, 90, 128, 0));    // 128
-console.log(Math.min(12, -1, 46, 90, 128, 0));    // -1
-console.log(Math.floor(4.9));   // zaokrągla w dól = 4
-console.log();
+console.log(Math.sqrt(25));
+console.log(Math.pow(5, 3));
+
 
