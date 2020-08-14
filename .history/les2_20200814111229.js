@@ -50,6 +50,5 @@ console.log(+((0.4 + 0.2).toFixed(1)));       // 0.6
 // BigInt
 const bigIntValue = 9007199254740991424242n;
 console.log(`${typeof(bigIntValue)} = ${bigIntValue}`);
-console.log(bigIntValue - 1n);    // = 9007199254740991424241n
-
+console.log(bigIntValue - 1n);
 
