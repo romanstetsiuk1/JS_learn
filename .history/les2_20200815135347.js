@@ -68,9 +68,7 @@ console.log(Math.min(12, -1, 46, 90, 128, 0));    // -1
 console.log(Math.floor(4.9));   // zaokrągla w dól = 4
 console.log(Math.ceil(4.2));    // zaokrągla do góry = 5
 console.log(Math.round(4.9));   // zwraca wartość zbliżoną do najblższej calej liczby
-console.log(Math.trunc(4.9));   // odcina wartości po przycinku
-console.log(Math.random());;    // random number
-
+console.log(Math.trunc(4,9));   // odcina wartości po przycinku
 
 
 
