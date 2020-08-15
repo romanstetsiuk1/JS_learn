@@ -73,9 +73,8 @@ console.log(Math.random());;    // random number
 
 // Example
 function getRandomBetween(min,max) {
-  return Math.floor(Math.random() * (max - min +1) + min)
+  return console.log(Math.floor(Math.random() * (max - min +1) + min));
 }
 
-const randomVar = getRandomBetween(10, 42);
-console.log(randomVar);
+
 
