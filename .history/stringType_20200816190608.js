@@ -13,12 +13,10 @@ console.log(name.endsWith('an'));                   // true
 console.log(name.repeat(2));
 
 const string = '       some text      ';
-console.log(string);              //       some text      
-console.log(string.trim());       //some text
-console.log(string.trimLeft());   //some text      
-console.log(string.trimRight());  //       some text
-
-
+console.log(string);
+console.log(string.trim());
+console.log(string.trimLeft());
+console.log(string.trimRight());
 
 
 
