@@ -25,9 +25,7 @@ const person1Age = 29;
 const person2Age = -3;
 
 function logPerson(somethink, name, age) {
-    if (age < 0){
-      age = 'not born yet'
-    }
+  age < 0 ? age = 'not born yet'
   return `${somethink[0]}${name}${somethink[1]}${age}${somethink[2]}`
 }
 
