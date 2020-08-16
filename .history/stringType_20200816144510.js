@@ -8,9 +8,6 @@ console.log(name.indexOf('n'));   // 4
 console.log(name.indexOf('T'));   // -1
 console.log(name.startsWith('rom'));   // false
 console.log(name.startsWith('Rom'));   // true
-console.log(name.toLowerCase().startsWith('rom'));  // true
-console.log(name.endsWith('an'));                   // true
-
 
 
 
