@@ -11,6 +11,6 @@ const sayHi = function sayHello2(name) {
 sayHello('Mark');
 sayHi('Michal');
 
-console.log(typeof sayHello);
+console.log(typeof sayHallo);
 
 
