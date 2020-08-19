@@ -39,5 +39,3 @@ const powNum = (num1, num2) => {
 }
 console.log(pow2(5))
 console.log(powNum(5, 3));
-
-
