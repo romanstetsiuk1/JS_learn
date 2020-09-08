@@ -10,9 +10,8 @@ const firstItem = names.shift();
 console.log(firstItem);
 console.log(names);
 
-const lastItem = names.pop();
-console.log(lastItem);
-console.log(names);
+
+
 
 
 
