@@ -51,14 +51,10 @@ console.log(sum2());
 
 // use all parametrs in functions
 function sumAll(...all){
-  let result = 0;
-  for (let num of all){
-    result += num;
-  }
-  return result;
+  console.log(all);
 }
-const res = sumAll(1,2,3,4,5,6,7,8,9);
-console.log(res);
+sumAll(1,2,3,4,5,6,7,8,9);
+
 
 
 
