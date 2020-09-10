@@ -49,13 +49,11 @@ for(const person of people){
 console.log(findedPerson);
 
 // using arrowFunction
-const indexPeople3 = people.find((person) => {
+const indexPeople2 = people.find((person) => {
   return person.age === 31;
 })
-console.log(indexPeople3);
-
-const indexPeople4 = people.find(person => person.age === 29)
-console.log(indexPeople4);
+console.log(indexPeople2);
+console.log(people[indexPeople2]);
 
 
 

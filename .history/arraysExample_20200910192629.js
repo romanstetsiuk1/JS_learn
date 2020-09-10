@@ -53,9 +53,11 @@ const indexPeople3 = people.find((person) => {
   return person.age === 31;
 })
 console.log(indexPeople3);
+console.log(people[indexPeople3]);
 
 const indexPeople4 = people.find(person => person.age === 29)
 console.log(indexPeople4);
+console.log(people[indexPeople4]);
 
 
 
