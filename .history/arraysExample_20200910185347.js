@@ -33,9 +33,5 @@ const indexPeople = people.findIndex(function(person){
 console.log(indexPeople);
 console.log(people[indexPeople]);
 
-const indexPeople2 = people.find(function(person){
-  return person.age === 31;
-})
-console.log(indexPeople2);
-console.log(people[indexPeople2]);
+
 

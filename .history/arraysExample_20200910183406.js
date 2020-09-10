@@ -1,10 +1,4 @@
 const names = ['Leo', 'Nina', 'Mark', 'Dominika'];
-const people = [
-  {name:'user1', age:26},
-  {name:'user2', age:31},
-  {name:'user3', age:29},
-  {name:'user4', age:21},
-]
 
 // Method
 names.push('Jack');
@@ -27,15 +21,6 @@ const indexNr = names.indexOf('Mark');
 names[indexNr] = 'John';
 console.log(names);
 
-const indexPeople = people.findIndex(function(person){
-  return person.age === 29;
-})
-console.log(indexPeople);
-console.log(people[indexPeople]);
 
-const indexPeople2 = people.find(function(person){
-  return person.age === 31;
-})
-console.log(indexPeople2);
-console.log(people[indexPeople2]);
+
 
