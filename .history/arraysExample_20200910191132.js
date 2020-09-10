@@ -46,7 +46,7 @@ for(const person of people){
     findedPerson = person
   }
 }
-console.log(findedPerson);
+console.log(`Bingo! You find ${findedPerson}`);
 
 
 
